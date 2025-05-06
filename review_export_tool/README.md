@@ -66,4 +66,4 @@ Nuke has a learning curve, especially when preparing shots for dailies or review
 - PySide2 and PySide6 fallback
 
 # Credits
-Created by **Erik Elizalde** – inspired by real production review workflows and adapted for learning environments.
+Created by **Erik E.** – inspired by real production review workflows and adapted for learning environments.
