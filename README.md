@@ -1,4 +1,4 @@
-# Nuke Tools by Erik E.
+# Nuke Tools
 
 A growing collection of Python-based tools designed to improve and simplify daily workflows in **Foundry Nuke**.
 
