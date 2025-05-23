@@ -5,6 +5,7 @@ import nuke
 
 # Setup tool
 TOOL_NAME = "Review Export Tool"
+FOLDER_NAME = "review_export_tool"
 GITHUB_URL = f"https://github.com/Chilanguiux/nuke_tools.git"
 TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}")
 TOOL_ENTRY = "tool"
@@ -17,15 +18,15 @@ if not os.path.exists(TOOL_DIR):
     except Exception as e:
         nuke.message(f"Error cloning tool: {e}")
 else:
-    print(f"{TOOL_NAME} ya existe en: {TOOL_DIR}")
+    print(f"{TOOL_NAME} already exists in: {TOOL_DIR}")
 
 # Adding to sys.path
 if TOOL_DIR not in sys.path:
-    sys.path.append(TOOL_DIR)
+    sys.path.append(os.path.join(TOOL_DIR, FOLDER_NAME))
 
 # Importing tool
 try:
-    import tool
+    import tool  
     import importlib
     tool_module = importlib.import_module(TOOL_ENTRY)
 except Exception as e:
