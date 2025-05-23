@@ -4,22 +4,35 @@ A growing collection of Python-based tools designed to improve and simplify dail
 
 Whether you're a compositor preparing review shots, or a TD building utilities, this toolkit offers practical, modular solutions you can drop into your ".nuke" folder.
 
-# Features
+## Features
 
-* Self-installing (via GitHub)
-* Modular structure for easy customization
-* Suitable for compositors, and technical directors
-  
-# Tools included (so far)
+- Self-installing (via GitHub)
+- Modular structure for easy customization
+- Suitable for compositors, and technical directors
+
+## Tools included (so far)
+
 [Review Export Tool](https://github.com/Chilanguiux/nuke_tools/tree/main/review_export_tool)
 
 [Node Cleaner Tool](https://github.com/Chilanguiux/nuke_tools/tree/main/node_cleaner_tool)
+
+## Installation (Automatic)
+
+1. Copy "menu.py" into your local "~/.nuke/" folder.
+2. Launch Nuke.
+3. No manual installation or setup needed. The tool auto-installs from GitHub the first time.
+
+![alt text](review_export_tool/screenshots/auto_install.png)
+
+4. The tool will appear under "VFX Tools > Review Export Tool".
+
+![alt text](review_export_tool/screenshots/menu.png)
 
 ## Disclaimer
 
 These tools are provided **as-is**, without any warranties or guarantees.  
 Use them at your own risk. The author is not responsible for any damage, data loss, or unexpected behavior caused by these scripts.
 
-That said, they’re built with care and tested in real-world Nuke environments.
+That said, they are built with care and tested in real-world Nuke environments.
 
 Gracias!

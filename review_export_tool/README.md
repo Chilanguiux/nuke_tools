@@ -16,19 +16,7 @@
 - Automatically formats and scales the logo
 - Great for **school reviews**, **assignments**, or **learning real comp workflows**
 
-# Installation (Automatic)
-
-1. Copy "menu.py" into your local "~/.nuke/" folder.
-2. Launch Nuke.
-3. No manual installation or setup needed. The tool auto-installs from GitHub the first time.
-
-![alt text](screenshots/auto_install.png)
-
-4. The tool will appear under "VFX Tools > Review Export Tool".
-
-![alt text](screenshots/menu.png)
-
-# Usage
+## Usage
 
 Select or create a Read node with your shot
 
@@ -36,7 +24,7 @@ Open the Auto Review Export tool
 
 ![alt text](screenshots/ui.png)
 
-# Choose
+## Choose
 
 Output .mov path
 
