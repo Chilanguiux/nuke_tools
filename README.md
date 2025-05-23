@@ -1,6 +1,6 @@
 # Nuke Tools
 
-A growing collection of Python-based tools designed to improve and simplify daily workflows in **Foundry Nuke**.
+A growing collection of Python-based tools designed to improve and simplify daily workflows in **Nuke (Non Commercial version)**.
 
 Whether you're a student learning node logic, a compositor preparing review shots, or a TD building utilities, this toolkit offers practical, modular solutions you can drop into your ".nuke" folder.
 
