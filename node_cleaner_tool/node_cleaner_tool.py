@@ -1,7 +1,6 @@
-# Nuke Cleaner Node Tool
- 
 import nuke
 import os
+
 def full_clean():
     def backup_script():
         current_script = nuke.root().name()
@@ -44,7 +43,3 @@ def full_clean():
     msg += f"Dots nodes removed: {dots_deleted}\n"
     msg += f"Nodes fixes=d horizontally."
     nuke.message(msg)
-# Add the new menu
-menu = nuke.menu("Nuke")
-tools_menu = menu.addMenu("My Menu")
-tools_menu.addCommand("Node cleaner tool", full_clean)
