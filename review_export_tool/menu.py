@@ -63,7 +63,7 @@ def setup_tools():
 def clone_base_repo():
     """Clones the main repo if missed."""
     try:
-        nuke.tprint(f"Cloning repo from: {GITHUB_URL}")
+        nuke.message(f"Cloning repo from: {GITHUB_URL}")
         subprocess.run(["git", "clone", GITHUB_URL, BASE_DIR], check=True)
     except Exception as e:
         nuke.message(f"Error cloning the repo:\n{e}")
