@@ -24,7 +24,7 @@ Whether you're a compositor preparing review shots, or a TD building utilities, 
 
 ![alt text](review_export_tool/screenshots/auto_install.png)
 
-4. The tool will appear under "VFX Tools > Review Export Tool".
+4. The tools will appear under "VFX Tools Menu".
 
 ![alt text](review_export_tool/screenshots/menu.png)
 
