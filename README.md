@@ -2,17 +2,14 @@
 
 A growing collection of Python-based tools designed to improve and simplify daily workflows in **Nuke**.
 
-Whether you're a student learning node logic, a compositor preparing review shots, or a TD building utilities, this toolkit offers practical, modular solutions you can drop into your ".nuke" folder.
+Whether you're a compositor preparing review shots, or a TD building utilities, this toolkit offers practical, modular solutions you can drop into your ".nuke" folder.
 
-## Purpose
+# Features
 
-This set of tools is built to:
-
-- Accelerate **common Nuke tasks**
-- Encourage **clean node-based logic**
-- Serve as a learning base for **custom tool development**
-- Support **Non-Commercial**, **Indie**, and **Studio** Nuke workflows
-
+* Self-installing (via GitHub)
+* Modular structure for easy customization
+* Suitable for compositors, and technical directors
+  
 # Tools included (so far)
 [Review Export Tool](https://github.com/Chilanguiux/nuke_tools/tree/main/review_export_tool)
 
