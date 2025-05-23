@@ -30,8 +30,8 @@ Whether you're a compositor preparing review shots, or a TD building utilities, 
 
 ## Disclaimer
 
-These tools are provided **as-is**, without any warranties or guarantees.  
-Use them at your own risk. The author is not responsible for any damage, data loss, or unexpected behavior caused by these scripts.
+These tools are provided "as is", without warranty of any kind, express or implied.
+Use them at your own risk. The author assumes no responsibility for any damage, data loss, or unexpected behavior that may result from their use.
 
 That said, they are built with care and tested in real-world Nuke environments.
 
