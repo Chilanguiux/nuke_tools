@@ -1,8 +1,6 @@
-# Auto Review Export Tool for Nuke Non-Commercial
+# Auto Review Export Tool for Nuke _Non-Commercial_
 
-**A simple, educational Nuke tool designed to help students and new compositors set up a basic review comp quickly and professionally.**
-
----
+**A Nuke tool designed to help students and new compositors set up a basic review comp quickly and professionally.**
 
 ## Purpose
 
@@ -14,8 +12,6 @@ This tool was created with **students learning Nuke** in mind. It simplifies the
 - Merged slate + footage
 - Final output using libx264 codec (compatible with most review pipelines)
 
----
-
 ## Features
 
 - Works in **Nuke Non-Commercial** (within node limits)
@@ -24,22 +20,16 @@ This tool was created with **students learning Nuke** in mind. It simplifies the
 - Automatically formats and scales the logo
 - Great for **school reviews**, **assignments**, or **learning real comp workflows**
 
----
+# Installation (Automatic)
 
-## Installation
+1. Copy "menu.py" into your local "~/.nuke/" folder.
+2. Launch Nuke.
+3. The tool will appear under "VFX Tools > Review Export Tool > Launch".
 
-1. Drop "nuke_auto_export_review.py" into your ".nuke" folder
-2. In your "menu.py", add:
-
-# python
-import nuke_auto_export_review
-nuke.menu("Nuke").addCommand("Custom Tools/Auto Review Export", nuke_auto_export_review.show_export_ui_nc)
-
-# Restart Nuke
-
-Launch the tool via Custom Tools > Auto Review Export
+No manual installation or setup needed. The tool auto-installs from GitHub the first time.
 
 # Usage
+
 Select or create a Read node with your shot
 
 Open the Auto Review Export tool
@@ -57,6 +47,7 @@ Optional logo
 The tool builds the comp, adds burn-ins, merges elements, and writes a .mov
 
 # Why This Tool?
+
 Nuke has a learning curve, especially when preparing shots for dailies or reviews.
 
 # Compatibility
@@ -66,4 +57,5 @@ Nuke has a learning curve, especially when preparing shots for dailies or review
 - PySide2 and PySide6 fallback
 
 # Credits
+
 Created by **Erik E.**, inspired by real production review workflows and adapted for learning environments.
