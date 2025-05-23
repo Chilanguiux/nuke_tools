@@ -5,8 +5,10 @@ import nuke
 
 # Setup tool
 TOOL_NAME = "Review Export Tool"
+FOLDER_NAME = "review_export_tool"
 GITHUB_URL = f"https://github.com/Chilanguiux/nuke_tools.git"
-TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}")
+TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}/{FOLDER_NAME}")
+TOOL_ENTRY = "tool"
 
 # Clone repo if dont exists
 if not os.path.exists(TOOL_DIR):
@@ -26,7 +28,6 @@ if TOOL_DIR not in sys.path:
 try:
     import tool
     import importlib
-    TOOL_ENTRY = "tool"
     tool_module = importlib.import_module(TOOL_ENTRY)
 except Exception as e:
     nuke.message(f"Error loading tool module: {e}")
