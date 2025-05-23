@@ -26,13 +26,19 @@ This tool was created with **students learning Nuke** in mind. It simplifies the
 2. Launch Nuke.
 3. The tool will appear under "VFX Tools > Review Export Tool > Launch".
 
+![alt text](screenshots/menu.png)
+
 No manual installation or setup needed. The tool auto-installs from GitHub the first time.
+
+![alt text](screenshots/auto_install.png)
 
 # Usage
 
 Select or create a Read node with your shot
 
 Open the Auto Review Export tool
+
+![alt text](screenshots/ui.png)
 
 # Choose
 
@@ -46,16 +52,18 @@ Optional logo
 
 The tool builds the comp, adds burn-ins, merges elements, and writes a .mov
 
+![alt text](screenshots/nodes_setup.png)
+
 # Why This Tool?
 
-Nuke has a learning curve, especially when preparing shots for dailies or reviews.
+Just an extra help especially when preparing shots for dailies or reviews.
 
 # Compatibility
 
 - Nuke Non-Commercial (tested on Nuke 13–16)
-- Windows/macOS/Linux
+- Tested on Windows
 - PySide2 and PySide6 fallback
 
 # Credits
 
-Created by **Erik E.**, inspired by real production review workflows and adapted for learning environments.
+Created by **Erik ELizalde.**, inspired by real production review workflows and adapted for learning environments.

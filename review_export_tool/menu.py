@@ -4,7 +4,7 @@ import subprocess
 import nuke
 
 # Setup tool
-TOOL_NAME = "review_export_tool"
+TOOL_NAME = "Review Export Tool"
 GITHUB_URL = f"https://github.com/Chilanguiux/nuke_tools.git"
 TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}")
 
