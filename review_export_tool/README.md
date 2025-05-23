@@ -1,10 +1,6 @@
 # Auto Review Export Tool for Nuke _Non-Commercial_
 
-**A Nuke tool designed to help students and new compositors set up a basic review comp quickly and professionally.**
-
-## Purpose
-
-This tool was created with **students learning Nuke** in mind. It simplifies the process of generating a quickTime ".mov" with:
+**A Nuke tool designed to help new compositors set up a basic review comp quickly and professionally.**
 
 - A customizable **slate** (solid or image)
 - **Burn-in text** (shot name, frame)
@@ -24,13 +20,13 @@ This tool was created with **students learning Nuke** in mind. It simplifies the
 
 1. Copy "menu.py" into your local "~/.nuke/" folder.
 2. Launch Nuke.
-3. The tool will appear under "VFX Tools > Review Export Tool > Launch".
-
-![alt text](screenshots/menu.png)
-
-No manual installation or setup needed. The tool auto-installs from GitHub the first time.
+3. No manual installation or setup needed. The tool auto-installs from GitHub the first time.
 
 ![alt text](screenshots/auto_install.png)
+
+4. The tool will appear under "VFX Tools > Review Export Tool".
+
+![alt text](screenshots/menu.png)
 
 # Usage
 
@@ -44,9 +40,9 @@ Open the Auto Review Export tool
 
 Output .mov path
 
-Optional slate background (solid or image)
-
 Optional logo
+
+Optional slate background (solid or image)
 
 **Click Create Export**
 
@@ -66,4 +62,6 @@ Just an extra help especially when preparing shots for dailies or reviews.
 
 # Credits
 
-Created by **Erik ELizalde.**, inspired by real production review workflows and adapted for learning environments.
+Created by **Erik ELizalde**, inspired by real production review workflows and adapted for learning environments.
+
+**Please get in touch if you want to talk about this or any other development I can help you with.**
