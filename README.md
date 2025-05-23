@@ -13,6 +13,11 @@ This set of tools is built to:
 - Serve as a learning base for **custom tool development**
 - Support **Non-Commercial**, **Indie**, and **Studio** Nuke workflows
 
+# Tools included (so far)
+[Review Export Tool](https://github.com/Chilanguiux/nuke_tools/tree/main/review_export_tool)
+
+[Node Cleaner Tool](https://github.com/Chilanguiux/nuke_tools/tree/main/node_cleaner_tool)
+
 ## Disclaimer
 
 These tools are provided **as-is**, without any warranties or guarantees.  
