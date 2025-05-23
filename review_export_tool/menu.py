@@ -5,9 +5,8 @@ import nuke
 
 # Setup tool
 TOOL_NAME = "Review Export Tool"
-FOLDER_NAME = "review_export_tool"
 GITHUB_URL = f"https://github.com/Chilanguiux/nuke_tools.git"
-TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}/{FOLDER_NAME}")
+TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}")
 TOOL_ENTRY = "tool"
 
 # Clone repo if dont exists
