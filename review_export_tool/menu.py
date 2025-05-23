@@ -12,7 +12,7 @@ TOOL_ENTRY = "tool"
 
 def update_tool_repo(repo_dir):
     try:
-        if os.path.exists(GITHUB_URL):
+        if os.path.exists(repo_dir):
             os.chdir(repo_dir)
             subprocess.run(["git", "fetch"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             status = subprocess.check_output(["git", "status"]).decode("utf-8")
@@ -53,3 +53,7 @@ except Exception as e:
 toolbar = nuke.menu("Nuke")
 menu = toolbar.addMenu("VFX Tools")
 menu.addCommand(f"{TOOL_NAME}", f"{TOOL_ENTRY}.launch()")
+
+# Cleaner Tool Menu
+from node_cleaner_tool import node_cleaner_tool as nct
+menu.addCommand(f"Node Cleaner Tool", f"{nct}.full_clean()")
