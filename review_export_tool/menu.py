@@ -1,15 +1,14 @@
-import nuke
 import os
 import sys
 import subprocess
+import nuke
 
-# Configura tu herramienta
-TOOL_NAME = "Review Export Tool"
+# Setup tool
+TOOL_NAME = "review_export_tool"
 GITHUB_URL = f"https://github.com/Chilanguiux/nuke_tools.git"
 TOOL_DIR = os.path.expanduser(f"~/.nuke/tools/{TOOL_NAME}")
-TOOL_ENTRY = "tool"
 
-# Clonar si no existe
+# Clone repo if dont exists
 if not os.path.exists(TOOL_DIR):
     nuke.message(f"{TOOL_NAME} not found. Cloning from GitHub...")
     try:
@@ -19,18 +18,20 @@ if not os.path.exists(TOOL_DIR):
 else:
     print(f"{TOOL_NAME} ya existe en: {TOOL_DIR}")
 
-# Agregar al sys.path
+# Adding to sys.path
 if TOOL_DIR not in sys.path:
     sys.path.append(TOOL_DIR)
 
-# Importar herramienta
+# Importing tool
 try:
+    import tool
     import importlib
+    TOOL_ENTRY = "tool"
     tool_module = importlib.import_module(TOOL_ENTRY)
 except Exception as e:
     nuke.message(f"Error loading tool module: {e}")
 
-# Crear menú en Nuke
+# Nuke menu setup
 toolbar = nuke.menu("Nuke")
 menu = toolbar.addMenu("VFX Tools")
-menu.addCommand(f"{TOOL_NAME} > Launch", f"{TOOL_ENTRY}.launch()")
+menu.addCommand(f"{TOOL_NAME}", f"{TOOL_ENTRY}.launch()")

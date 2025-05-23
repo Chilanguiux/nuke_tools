@@ -12,11 +12,7 @@ from nukescripts import executeInMainThreadWithResult
 
 def create_export_review_nc(output_path, slate_image=None, logo_path=None):
     """
-    Creates a basic review render setup in Nuke Non-Commercial:
-    - Optional slate with burn-in text
-    - Optional logo in the top right corner
-    - Appends slate and shot content
-    - Outputs to a .mov file
+    Creates a basic review render setup in Nuke Non-Commercial
     """
     def create(node_type):
         node = nuke.createNode(node_type, inpanel=False)
