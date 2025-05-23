@@ -1,4 +1,4 @@
-# Nuke Tools
+# Nuke Tools Set
 
 A growing collection of Python-based tools designed to improve and simplify daily workflows in **Nuke**.
 
